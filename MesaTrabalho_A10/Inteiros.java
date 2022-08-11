@@ -30,13 +30,13 @@ public class Inteiros {
         media = soma / listaInterios.size();
 
         if (listaInterios.size() > 5) {
-            logger.info("[INFO] [ListaMedia: "+ media + "] O comprimento da lista é maior que 5");
+            logger.info("[INFO] [ListaMedia: " + media + "] O comprimento da lista é maior que 5");
         } else {
-            logger.error("[INFO] [ListaMedia: "+ media + "]");
+            logger.error("[INFO] [ListaMedia: " + media + "]");
         }
 
         if (listaInterios.size() > 10) {
-            logger.info("[INFO] [ListaMedia: "+ media + "]O comprimento da lista é maior que 10");
+            logger.info("[INFO] [ListaMedia: " + media + "]O comprimento da lista é maior que 10");
         }
 
     }
