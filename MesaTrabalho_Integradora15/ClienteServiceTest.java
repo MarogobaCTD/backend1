@@ -22,10 +22,10 @@ class ClienteServiceTest {
         Paciente paciente = new Paciente("Marcelo", "Barbosa", "1098393", "10/08/2022", endereco);
 
         Endereco endereco2 = new Endereco("Avenida Brasil", 344, "Centro", "São Paulo");
-        Paciente paciente2 = new Paciente("Carolina", "Alves", "BR273738", "25/03/2022", endereco);
+        Paciente paciente2 = new Paciente("Carolina", "Alves", "BR273738", "25/03/2022", endereco2);
 
         Endereco endereco3 = new Endereco("Rua das Flores", 67, "Jardim Ingá", "Maringá");
-        Paciente paciente3 = new Paciente("Rosa", "Gomes", "97808", "03/08/2022", endereco);
+        Paciente paciente3 = new Paciente("Rosa", "Gomes", "97808", "03/08/2022", endereco3);
 
         clienteService.salvar(paciente);
         assertTrue(paciente.getId()!=null);
