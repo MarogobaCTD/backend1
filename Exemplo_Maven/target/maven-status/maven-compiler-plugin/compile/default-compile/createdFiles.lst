@@ -1,0 +1,5 @@
+medicamentos\Medicamento.class
+medicamentos\MedicamentoService.class
+medicamentos\IDao.class
+medicamentos\ConfiguracaoJDBC.class
+medicamentos\MedicamentoDaoH2.class
